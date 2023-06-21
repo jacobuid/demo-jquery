@@ -40,21 +40,22 @@ $("#magic").on('click', function(){
                                     </code></pre>
                                     <p>Please click the button again, Ill Fix this...</p>
                               </div>`)
-                        
-                  }, 2000)
-                  $("#magic").on('click', function(){
-                        $('#content').append('<br><br><hr><br>');
-                        $('#content').append('<p>Ok, here is the image I was trying to get ==></p>');
-                        $('#content').append('<br><br><br><br>');
-                        img.attr('src', content.thumbnailUrl);
-                        $('body').append(img)
-                        img.on('mouseenter', runAway);
-                        img.on('click', function(){
-                              alert('clicked!');
+                        // Add 2nd clik handler
+                        $("#magic").on('click', function(){
+                              $('#content').append('<br><br><hr><br>');
+                              $('#content').append('<p>Ok, here is the image I was trying to get ==></p>');
+                              $('#content').append('<br><br><br><br>');
+                              img.attr('src', content.thumbnailUrl);
+                              $('body').append(img)
+                              img.on('mouseenter', runAway);
+                              img.on('click', function(){
+                                    alert('clicked!');
+                              });
+                              $('#content').append('<br>');
+                              $('#content').append('<p>I bet you cant click the image... lol :)</p>');
                         });
-                        $('#content').append('<br>');
-                        $('#content').append('<p>I bet you cant click the image... lol :)</p>');
-                  });
+                  }, 2000)
+                  
             }
       });
 })
