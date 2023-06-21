@@ -1,0 +1,46 @@
+
+
+html,body{font-family: Geneva, Verdana, sans-serif; margin:0}
+
+
+
+header{
+    padding:20px;
+    background-color: #FE6F2F;
+    background-image: url('/public/img/header-bg.png');
+}
+
+#logo{
+    margin:0 auto;
+    display:block;
+}
+
+h1{text-align: center; color:#FE6F2F}
+
+/* Navigation */
+.nav{ float:right; margin:0 0 0 20px }
+.nav ul { list-style:none; margin:0; padding:0 }
+    .nav li { display:block; float:left; padding:0 }
+    .nav.vertical li { float:none }
+        .nav.vertical a { display:block; }
+        .nav a { display:table-cell; padding:10px; color:#fafafa;text-decoration: none; }
+        .nav a:hover { color:#fff }
+
+
+/* JQuery Plugins */
+
+#sortable {
+      list-style-type: none;
+      margin: 40px 0;
+      padding: 0;
+      width:100%;
+  }
+
+#sortable li {
+      margin: 3px 3px 3px 0;
+      padding: 1px;
+      float: left;
+      width: 100px;
+      height:200px;
+      text-align: center;
+}
