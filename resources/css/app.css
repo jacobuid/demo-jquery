@@ -27,6 +27,17 @@ h1{text-align: center; color:#FE6F2F}
         .nav a:hover { color:#fff }
 
 
+.container{ 
+    min-height: 500px;
+}
+
+/* Custom */
+#img{
+    position:absolute; 
+    top: 320px;
+    left: 45%;
+}
+
 /* JQuery Plugins */
 
 #sortable {

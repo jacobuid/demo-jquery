@@ -24,6 +24,7 @@
                             <li><a href="{{ url("/"); }}">Home</a></li>
                             <li><a href="{{ url("/posts"); }}">Posts</a></li>
                             <li><a href="{{ url("/layout"); }}">Layout</a></li>
+                            <li><a href="{{ url("/custom"); }}">Custom</a></li>
                         </ul>
                     </nav> 
                 </div>        

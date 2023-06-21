@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/posts', function () {
-//     return view('posts');
-// });
+Route::get('/custom', function () {
+    return view('custom');
+});
 
 Route::get('posts', 'App\Http\Controllers\PostController@posts');
 Route::get('layout', 'App\Http\Controllers\LayoutController@layout');
