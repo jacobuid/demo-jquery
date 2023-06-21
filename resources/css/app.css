@@ -18,14 +18,20 @@ header{
 h1{text-align: center; color:#FE6F2F}
 
 /* Navigation */
-.nav{ float:right; margin:0 0 0 20px }
+
+.nav{ margin:20px 0 0 }
 .nav ul { list-style:none; margin:0; padding:0 }
     .nav li { display:block; float:left; padding:0 }
     .nav.vertical li { float:none }
         .nav.vertical a { display:block; }
         .nav a { display:table-cell; padding:10px; color:#fafafa;text-decoration: none; }
         .nav a:hover { color:#fff }
-
+@media (min-width: 768px) {
+    .nav{
+        float:right;
+        margin:0 0 0 20px
+    }
+}
 
 main{ 
     min-height: 500px;
