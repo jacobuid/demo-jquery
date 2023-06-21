@@ -27,8 +27,11 @@ h1{text-align: center; color:#FE6F2F}
         .nav a:hover { color:#fff }
 
 
-.container{ 
+main{ 
     min-height: 500px;
+}
+footer{ 
+    min-height: 60px;
 }
 
 /* Custom */
